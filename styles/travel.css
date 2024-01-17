@@ -1,13 +1,13 @@
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2%;
 }
 .nav-title {
     color: #131318;
-font-size: 36px;
-font-weight: 800;
+    font-size: 36px;
+    font-weight: 800;
 }
 .travel {
     display: flex;
@@ -31,4 +31,141 @@ nav li {
 }
 nav a {
     text-decoration: none;
+}
+button {
+    width: 174px;
+    height: 52px;
+}
+select {
+    width: 170px;
+    height: 50px;
+}
+.btn-primary {
+    border-radius: 8px;
+    background: #FF5400;
+    color: white;
+    padding: auto;
+}
+
+
+.banner-option {
+    border-radius: 8px;
+    justify-items: center;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.30);
+}
+.banner {
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 500px;
+    text-align: center;
+    justify-content: center;
+} 
+.banner-title {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+}
+.banner-content {
+    color:brown;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+main {
+    max-width: 1140px;
+    margin: 50px auto;
+
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.seaction-heading {
+    color: #131318;
+    font-size: 50px;
+    font-weight: 800;
+}
+section-img {
+    width: 540px;
+    height: 600px;
+}
+.heading {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+}
+.content {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+}
+.row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+
+}
+.service-heading {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.service-content {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+}
+.box {
+    width: 573px;
+    height: 284px;
+    border: 1px solid tomato;
+    background-color: aliceblue;
+    text-align: center;
+    justify-content: center;
+}
+.container-1 {
+    display: flex;
+    gap: 20px;
+
+}
+.container-2 {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.perfect-place {
+    margin-top: 40px;
+}
+input {
+    display: flex;
+    flex-direction: column;
+    width: 393px;
+    height: 52px;
+    gap: 16px;
+}
+.news {
+    display: flex;
+    gap: 60px;
+    margin-top: 40px;
+}
+.news-letter {
+    border: 2px solid tomato;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 1440px;
+    height: 502px;
+    background: rgba(19, 19, 24, 0.05);
+
+}
+.footer-title {
+    display: flex;
+    justify-content: center;
 }
